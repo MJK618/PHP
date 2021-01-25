@@ -8,7 +8,7 @@
     <?php
     echo "Note : All Time Formats are according to PHP Time Stamp i.e The UNIX Timestamp (1 January 1970 00:00:00 GMT)<br><br> ";
 
-    $dob = mktime(0,0,0,6,29,2000);// modify the birth day 3/25/2020
+    $dob = mktime(0,0,0,9,9,2000);// modify the birth day 3/25/2020
     echo $dob." : Date Of Birth <br>";
     $today = time();
     echo $today." : Time till today<br>";
